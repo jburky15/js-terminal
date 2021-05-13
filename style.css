@@ -64,6 +64,7 @@ body, h1,h2,h3, p{
      
 .userEnteredText{ 
     color: rgb(9, 255, 0); 
+    font-weight: 800;
     margin: 0; 
     padding: 0; 
     display: inline-block; 
@@ -77,13 +78,14 @@ body, h1,h2,h3, p{
     resize: none; 
     border: none; 
     font-size: 14px; 
+    font-weight: 800;
     line-height: 28px; 
     display: block; 
     color: rgba(9, 143, 0 ,0.9); 
 } 
     
 #terminalReslutsCont a{ 
-    color: rgba(5, 143, 0, 0.9); 
+    color: rgba(5, 143, 0, 0.9);
     text-decoration: none; 
 } 
 
@@ -101,6 +103,7 @@ body, h1,h2,h3, p{
     color: rgb(9, 255, 0); 
     padding: 18px; 
     font-size: 14px; 
+    font-weight: 800;
     outline: none; 
     font-family: 'Roboto Mono', monospace; 
 } 
@@ -147,21 +150,22 @@ body, h1,h2,h3, p{
 
 @media screen and (max-width: 1000px){ 
     .gradientCont{ 
-    height: 220px; 
+    height: 100vh; 
     } 
     .mainCont{ 
-    width: 100%; 
+    width: 75vw; 
     padding: 0 12px; 
     } 
     .mainCont h2{ 
     font-size: 32px; 
-    margin: 40px 0 0 0; 
+    margin: 20px 0 0 0; 
     } 
     .mainCont h3{ 
     font-size: 16px; 
-    margin: 0 0 40px 0; 
+    margin: 0 0 20px 0; 
     } 
     #terminalReslutsCont{ 
-    height: 100px; 
+    height: 33vh; 
+    width: 75vw;
     } 
-} 
+}
