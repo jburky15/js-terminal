@@ -1,22 +1,20 @@
 html { 
         box-sizing: border-box; 
     } 
-    
+
 *, *:before, *:after { 
     box-sizing: inherit; 
 } 
-    
+
 body{ 
     font-family: 'Roboto','Helvetica Neue', 'Lucida Grande', sans-serif; 
 } 
-    
+
 body, h1,h2,h3, p{ 
      margin:0; 
      padding:0; 
 } 
-    
-    
-    
+
 .gradientCont{ 
     background: linear-gradient(to right, #6320ff, #ff4b2b); 
     width:100%; 
@@ -28,7 +26,7 @@ body, h1,h2,h3, p{
     width:1000px; 
     margin: 0 auto; 
 } 
-    
+
 .mainCont h1{ 
     display: inline-block; 
     width: 100%; 
@@ -39,7 +37,7 @@ body, h1,h2,h3, p{
     color: white; 
     text-shadow: 2px 2px black;
 } 
-    
+
 .mainCont h2{ 
     text-align: center; 
     font-weight: 400; 
@@ -48,10 +46,10 @@ body, h1,h2,h3, p{
     margin: 0 0 60px 0; 
     text-shadow: 1px 1px black;
 } 
-    
+
 .terminalCont{ 
     background: black; 
-    width: 66vw; 
+    width: 100%; 
     border: 2px solid white;
     border-radius: 8px; 
     padding:12px 0 0 0; 
@@ -62,7 +60,7 @@ body, h1,h2,h3, p{
     slideDownAnimation 1s ease-in-out 1s forwards, 
     fadeInAnimation 0.8s ease-in-out 1s forwards; 
 } 
-     
+
 .userEnteredText{ 
     color: rgb(9, 255, 0); 
     font-weight: 800;
@@ -84,7 +82,7 @@ body, h1,h2,h3, p{
     display: block; 
     color: rgba(9, 143, 0 ,0.9); 
 } 
-    
+
 #terminalReslutsCont a{ 
     color: rgba(5, 143, 0, 0.9);
     text-decoration: none; 
@@ -108,42 +106,42 @@ body, h1,h2,h3, p{
     outline: none; 
     font-family: 'Roboto Mono', monospace; 
 } 
-    
+
 @-webkit-keyframes fadeInAnimation { 
     0% { opacity: 0; } 
     100% { opacity: 1; } 
 } 
-    
+
 @-moz-keyframes fadeInAnimation { 
     0% { opacity: 0; } 
     100% { opacity: 1; } 
 } 
-    
+
 @-o-keyframes fadeInAnimation { 
     0% { opacity: 0; } 
     100% { opacity: 1; } 
 } 
-    
+
 @keyframes fadeInAnimation { 
     0% { opacity: 0; } 
     100% { opacity: 1; } 
 } 
-    
+
 @-webkit-keyframes slideDownAnimation { 
     0% { margin-top: -20px;} 
     100% { margin-top: 0;} 
 } 
-    
+
 @-moz-keyframes slideDownAnimation { 
     0% { margin-top: -20px;} 
     100% { margin-top: 0;} 
 } 
-    
+
 @-o-keyframes slideDownAnimation { 
     0% { margin-top: -20px;} 
     100% { margin-top: 0;} 
 } 
-    
+
 @keyframes slideDownAnimation { 
     0% { margin-top: -20px;} 
     100% { margin-top: 0;} 
