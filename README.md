@@ -12,5 +12,3 @@ Some sample terms to use:
   <li>'Time' displays the current time.</li>
   <li>'Date' displays the current date.</li>
 </ul>
-<br>
-I will update this with more options in the future.
